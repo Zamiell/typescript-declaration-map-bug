@@ -1,0 +1,19 @@
+{
+  // https://www.typescriptlang.org/docs/handbook/compiler-options.html
+  "compilerOptions": {
+    "outDir": "./dist",
+
+    // Options that we need to turn on since this is a TypeScript library.
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "sourceRoot": "../src",
+
+    // General TypeScript options.
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "moduleResolution": "Node",
+  },
+
+  "include": ["./src/**/*.ts"],
+}
